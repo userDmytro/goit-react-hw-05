@@ -1,0 +1,66 @@
+.section {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 22px;
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+.slug {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.slug::before,
+.slug::after {
+  content: ",";
+  padding-left: 2px;
+  padding-right: 2px;
+  color: rgb(202, 205, 179);
+  font-size: 36px;
+  line-height: 0;
+}
+
+.descr li {
+  margin-bottom: 12px;
+}
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.text {
+  font-size: 18px;
+}
+.genres {
+  display: flex;
+  gap: 0;
+  font-size: 18px;
+}
+.genres li::after,
+.genres li::before {
+  content: "|";
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgb(180, 180, 168);
+  font-size: 26px;
+}
+.img {
+  width: 450px;
+}
+.noposter {
+  padding-top: 40px;
+  min-width: 450px;
+  height: 675px;
+  text-align: center;
+  background-color: rgb(162, 163, 136);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(176, 184, 155) 20%,
+    rgb(166, 184, 146) 75%,
+    rgb(250, 235, 215) 185%
+  );
+
+  color: antiquewhite;
+  font-size: 30px;
+}

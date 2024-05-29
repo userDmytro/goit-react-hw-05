@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.item {
+  flex-basis: calc((100% - 250px) / 6);
+
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  padding-top: 8px;
+  margin-top: auto;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.descr {
+  font-size: 16px;
+}

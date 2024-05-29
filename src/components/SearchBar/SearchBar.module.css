@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  margin-bottom: 30px;
+}
+.input {
+  width: 220px;
+  height: 40px;
+  padding: 4px 8px;
+  margin-right: 16px;
+}
+.btn {
+  display: block;
+  padding: 8px 12px;
+  border: none;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: rgb(245, 236, 245);
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(189, 11, 106);
+}

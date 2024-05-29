@@ -1,0 +1,25 @@
+.container {
+  padding: 20px 60px;
+}
+.backLink {
+  padding: 6px 10px;
+  margin-bottom: 22px;
+  width: fit-content;
+  background-color: rgba(154, 175, 131, 0.3);
+}
+.backLink:hover,
+.backLink:focus {
+  background-color: rgb(169, 187, 141);
+}
+.info {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.infolink {
+  padding: 4px;
+  font-size: 18px;
+}
+.infolink:hover,
+.infolink:focus {
+  color: rgb(0, 0, 0);
+}

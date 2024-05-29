@@ -1,0 +1,19 @@
+.header {
+  padding: 20px 60px;
+  background-color: rgba(154, 75, 227, 0.2);
+}
+.list {
+  display: flex;
+  gap: 40px;
+}
+.link {
+  font-size: 26px;
+  font-weight: 500;
+}
+.link.active {
+  color: rgb(5, 25, 78);
+}
+
+li .link:hover {
+  color: rgb(0, 34, 255);
+}
